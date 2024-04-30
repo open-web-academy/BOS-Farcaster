@@ -35,7 +35,7 @@ The following is the basic structure of an asyncFetch showing its main elements:
     .catch((err) => { });
 ```
 
-In the following example we can see that we are using a different URL to the one provided by the API, this happens because BOS does not allow to make the direct call to the API due to configuration problems of the same, so a server was mounted with Node.js which will be responsible for making these requests and send them to BOS.
+In the following example we can see that we are using a different URL to the one provided by the API, this happens because BOS does not allow to make the direct call to the API due to configuration problems of the same, so a server was mounted with Node.js which will be responsible for making these requests and send them to BOS. (If you want to run this server, you will find the complete code in the BOS-API folder of this repository).
 
 Once the information of the channels is retrieved we will proceed to assign it to a variable to later make use of the information.
 
